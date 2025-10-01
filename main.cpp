@@ -11,7 +11,7 @@ using namespace sf;
 namespace fs = std::filesystem;
 
 int main() {
-    string version = "Syncy v1.10.25";
+    string version = "Syncy v1.1";
     char choice;
     cout << "Enter 's' for server or 'c' for client: ";
     cin >> choice;
@@ -27,4 +27,5 @@ int main() {
     }
     else
         cout << "Invalid choice. Please enter 's' or 'c'.\n";
+
 }
